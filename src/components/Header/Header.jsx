@@ -1,10 +1,11 @@
 import React from "react";
 import './Header.css'
+
 const Header = ()  =>{
     return (
        <section className="head-wrapper">
-<div className="head-container flexCenter padding innerWidth">
-    <img src="/public/logo1.png" alt="" width={100}/>
+<div className="flexCenter padding innerWidth head-container">
+    <img src="/logo1.png" alt="" width={100}/>
 
 
     <div className="head-menu flexCenter">

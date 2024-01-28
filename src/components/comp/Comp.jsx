@@ -10,10 +10,12 @@ const Comp=()=>{
                 </div>
                 <div className="comp-right FlexCenter">
                     <div className="img-Container">
-                        <img src="/hero-image.png" alt="" />
+                        hero
+                        <img src="./hero-image.png" alt="" />
                     </div>
                 </div>
             </div>
         </section>
     )
 }
+export default Comp
